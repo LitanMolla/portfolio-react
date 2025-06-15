@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-nunito: "Nunito", "sans-serif"; 
+
+   --shadow-custom: 0 0 20px rgba(0, 0, 0, 0.25); 
+}
