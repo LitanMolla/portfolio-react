@@ -9,7 +9,7 @@ import next from '../assets/svg/nextj.svg'
 const Skills = () => {
   return (
     <>
-        <section className='md:my-20 my-12'>
+        <section className='md:my-20 my-12' id='skills'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
                     <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>My Skills</h1>
                     <div className="grid md:grid-cols-3 grid-cols-2 gap-8">

@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-       <section className='md:my-20 my-12'>
+       <section className='md:my-20 my-12' id="hero">
          <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
             <div className="flex md:flex-row flex-col-reverse justify-between items-center">
                 <div className="md:w-1/2 space-y-2.5 md:text-start text-center">

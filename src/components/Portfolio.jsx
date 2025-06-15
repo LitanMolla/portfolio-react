@@ -8,7 +8,7 @@ import { FaCode } from "react-icons/fa6";
 const Portfolio = () => {
   return (
     <>
-      <section className='md:my-20 my-12'>
+      <section className='md:my-20 my-12' id="portfolio">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
           <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>Portfolio</h1>
           <div className="space-y-8">

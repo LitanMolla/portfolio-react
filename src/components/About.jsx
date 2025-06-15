@@ -3,7 +3,7 @@ import aboutSVG from "../assets/svg/coding-2-22.svg"
 const About = () => {
     return (
         <>
-            <section className='md:my-20 my-12'>
+            <section className='md:my-20 my-12' id='about'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
                     <h1 className='text-4xl font-bold text-cyan-500 text-center mb-5'>About Me</h1>
                     <div className="flex md:flex-row flex-col justify-between items-center gap-5">
