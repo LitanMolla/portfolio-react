@@ -13,7 +13,7 @@ const Hero = () => {
                     <h1 className='text-6xl font-bold  text-cyan-500'>Litan Molla</h1>
                     <h2 className='text-3xl text-gray-300 font-medium'>Frontend Developer</h2>
                     <p className='text-gray-400 text-base px-10 md:px-0'> I'm a passionate Frontend Developer dedicated to crafting modern, responsive, and user-centric web applications. I specialize in React and Tailwind CSS, blending clean design with smooth functionality to deliver exceptional user experiences.</p>
-                    <button className='bg-cyan-500 px-5 py-3 rounded-lg cursor-pointer text-gray-900 text-lg font-semibold duration-300 hover:bg-cyan-600 mt-3 flex gap-2 items-center'>Download Resume <FaDownload/></button>
+                    <button className='bg-cyan-500 px-5 py-3 rounded-lg cursor-pointer text-gray-900 text-lg font-semibold duration-300 hover:bg-cyan-600 mt-3 flex gap-2 items-center mx-auto md:mx-0'>Download Resume <FaDownload/></button>
                 </div>
                 <div className="md:w-1/2 mb-8 md:mb-0">
                     <div className="flex md:justify-end">

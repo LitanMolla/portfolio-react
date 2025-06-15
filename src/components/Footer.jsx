@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className='py-5'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
                         <div className="">
                             <p className='text-base text-gray-50'>© 2025 <span className='font-semibold'>Litan Molla</span>. All rights reserved.</p>
                         </div>
