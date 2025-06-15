@@ -1,4 +1,5 @@
 import About from './About'
+import BackToTop from './BackToTop'
 import Contact from './Contact'
 import Footer from './Footer'
 import Hero from './Hero'
@@ -16,6 +17,7 @@ const Home = () => {
         <Portfolio/>
         <Contact/>
         <Footer/>
+        <BackToTop/>
     </>
   )
 }
