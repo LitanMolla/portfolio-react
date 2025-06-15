@@ -1,4 +1,5 @@
 import { FaDownload } from "react-icons/fa";
+import heroImg from "../../public/images/hero-img.webp"
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
                 <div className="md:w-1/2 mb-8 md:mb-0">
                     <div className="flex md:justify-end">
                         <div className="max-w-80 sm:max-w-100 border-8 border-gray-700 rounded-2xl overflow-hidden shadow-custom shadow-gray-700 duration-300 hover:shadow-lg">
-                            <img src="../../public/images/hero-img.webp" alt="Hero Img" className='w-full duration-300 hover:scale-105 ' />
+                            <img src={heroImg} alt="Hero Img" className='w-full duration-300 hover:scale-105 ' />
                         </div>
                     </div>
                 </div>
