@@ -13,13 +13,13 @@ const Nav = () => {
     }
     return (
         <>
-            <header className='bg-gray-900/75 py-4 shadow shadow-gray-800 fixed top-0 left-0 w-full z-10'>
+            <header className='bg-gray-900/90 py-4 shadow shadow-gray-800 fixed top-0 left-0 w-full z-10'>
                 <nav className='max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8'>
                     <div className='flex justify-between items-center'>
                         <div>
-                            <Link to={'/'}><span className='text-4xl text-cyan-500 font-bold w-12 block'>
+                            <HLink to='hero' spy={true} smooth={true} duration={500} offset={-124}><span className='text-4xl text-cyan-500 font-bold md:w-12 w-8 block cursor-pointer'>
                                 <img src={logo} alt="Logo" className='w-full' />
-                            </span></Link>
+                            </span></HLink>
                         </div>
                         {/* Lg Menu */}
                         <div className='hidden md:block'>
@@ -43,7 +43,7 @@ const Nav = () => {
                     >
                         <button
                             onClick={menuHandle}
-                            className="cursor-pointer text-2xl text-gray-50 absolute top-6 right-4"
+                            className="cursor-pointer text-2xl text-gray-50 absolute top-4 right-4"
                         >
                             {menu ? <FaWindowClose /> : ''}
                         </button>

@@ -59,6 +59,7 @@ const Contact = () => {
                 </div>
             </section>
             <hr className='border-0 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 h-[2px]' />
+            
         </>
     )
 }
