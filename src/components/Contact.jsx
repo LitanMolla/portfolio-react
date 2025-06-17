@@ -10,7 +10,12 @@ const Contact = () => {
         <>
             <section className='md:my-20 my-12' id="contact">
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
-                    <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>Contact Me</h1>
+                    <div className="flex justify-between items-center gap-4 mb-12">
+                        <div className="h-[3px] flex-grow bg-gradient-to-r from-gray-900 via-gray-500 to-cyan-500 rounded-full"></div>
+                        <h1 className="text-4xl font-bold text-cyan-500 text-center whitespace-nowrap">Contact Me</h1>
+                        <div className="h-[3px] flex-grow bg-gradient-to-r from-cyan-500 via-gray-500 to-gray-900 rounded-full"></div>
+                    </div>
+                    {/* <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>Contact Me</h1> */}
                     <div className="flex md:flex-row flex-col-reverse justify-between gap-8 items-center  text-gray-50">
                         <div className="md:w-1/2 w-full">
                             <div className="space-y-5">

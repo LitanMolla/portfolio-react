@@ -10,7 +10,12 @@ const Portfolio = () => {
     <>
       <section className='md:my-20 my-12' id="portfolio">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
-          <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>Portfolio</h1>
+          <div className="flex justify-between items-center gap-4 mb-12">
+                        <div className="h-[3px] flex-grow bg-gradient-to-r from-gray-900 via-gray-500 to-cyan-500 rounded-full"></div>
+                        <h1 className="text-4xl font-bold text-cyan-500 text-center whitespace-nowrap">Portfolio</h1>
+                        <div className="h-[3px] flex-grow bg-gradient-to-r from-cyan-500 via-gray-500 to-gray-900 rounded-full"></div>
+                    </div>
+          {/* <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>Portfolio</h1> */}
           <div className="space-y-8">
           {/* Project Item 1*/}
             <div className="flex lg:flex-row flex-col justify-between gap-8 items-center bg-gray-800/50 p-5 rounded-md border border-gray-800 duration-300 hover:shadow-lg hover:shadow-gray-700   max-w-120 md:max-w-150 lg:max-w-full mx-auto">

@@ -5,7 +5,11 @@ const About = () => {
         <>
             <section className='md:my-20 my-12' id='about'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
-                    <h1 className='text-4xl font-bold text-cyan-500 text-center mb-5'>About Me</h1>
+                    <div className="flex justify-between items-center gap-4 mb-5">
+                        <div className="h-[3px] flex-grow bg-gradient-to-r from-gray-900 via-gray-500 to-cyan-500 rounded-full"></div>
+                        <h1 className="text-4xl font-bold text-cyan-500 text-center whitespace-nowrap">About Me</h1>
+                        <div className="h-[3px] flex-grow bg-gradient-to-r from-cyan-500 via-gray-500 to-gray-900 rounded-full"></div>
+                    </div>
                     <div className="flex md:flex-row flex-col justify-between items-center gap-5">
                         <div className="md:w-1/2">
                             <div className="max-w-110">
