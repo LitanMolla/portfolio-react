@@ -12,9 +12,9 @@ const Footer = () => {
                         </div>
                         <div className="text-xl text-gray-50 flex gap-2">
 
-                            <Link to={''}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaLinkedin /></span></Link>
-                            <Link to={''}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaGithub /></span></Link>
-                            <Link to={''}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaFacebook /></span></Link>
+                            <Link to={'https://www.linkedin.com/in/litanmolla/'}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaLinkedin /></span></Link>
+                            <Link to={'https://github.com/LitanMolla/'}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaGithub /></span></Link>
+                            <Link to={'https://www.facebook.com/LITANMOLLA09'}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaFacebook /></span></Link>
                             <Link to={''}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaInstagram /></span></Link>
                             <Link to={''}><span className="bg-gray-800 h-12 w-12 flex justify-center items-center rounded-full duration-300 hover:bg-cyan-500 hover:text-gray-800"><FaBehance /></span></Link>
                         </div>

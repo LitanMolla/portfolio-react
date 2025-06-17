@@ -18,10 +18,10 @@ const About = () => {
                         </div>
                         <div className="md:w-1/2">
                             <div className="text-gray-50 space-y-2 px-10 md:px-0 text-base">
-                                <p className=''>A passionate <b>Frontend Developer</b> based in Bangladesh. I specialize in creating responsive, user-friendly websites using modern technologies like React, Tailwind CSS, and JavaScript.
+                                <p className=''><b>I'm Litan Molla</b> — a <b>Frontend developer</b> with a strong passion for creating clean, responsive, and user-friendly websites.
                                 </p>
-                                <p>With a strong eye for design and a deep understanding of frontend development, I love turning ideas into interactive and visually appealing web experiences. My goal is to build clean, fast, and accessible websites that not only look great but also perform well on all devices.</p>
-                                <p>When I’m not coding, I enjoy listening to music and exploring new trends in web design.</p>
+                                <p>With skills in HTML, CSS, Tailwind CSS, JavaScript, React, and Next.js, I build modern interfaces that not only look great but also perform smoothly. I enjoy turning design ideas into real, functional websites that enhance the user experience.</p>
+                                <p>Currently, I'm focused on improving my skills and working on exciting web projects that solve real-world problems.</p>
                             </div>
                         </div>
                     </div>
@@ -33,3 +33,7 @@ const About = () => {
 }
 
 export default About
+
+
+
+
