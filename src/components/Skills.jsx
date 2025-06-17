@@ -5,16 +5,23 @@ import Tailwind from '../assets/svg/tailwindcss.svg'
 import js from '../assets/svg/js.svg'
 import react from '../assets/svg/react.svg'
 import next from '../assets/svg/nextj.svg'
+import { FaLaptopCode } from "react-icons/fa";
+
 
 const Skills = () => {
   return (
     <>
         <section className='md:my-20 my-12' id='skills'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
-                    <div className="flex justify-between items-center gap-4 mb-12">
-                        <div className="h-[3px] flex-grow bg-gradient-to-r from-gray-900 via-gray-500 to-cyan-500 rounded-full"></div>
-                        <h1 className="text-4xl font-bold text-cyan-500 text-center whitespace-nowrap">My Skills</h1>
-                        <div className="h-[3px] flex-grow bg-gradient-to-r from-cyan-500 via-gray-500 to-gray-900 rounded-full"></div>
+                    <div className="text-center mb-12">
+                        <h1 className="text-4xl font-bold text-cyan-500 mb-2 relative inline-block">My Skills</h1>
+                        <div className="flex justify-center items-center gap-3">
+                            <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-cyan-500 to-cyan-300 rounded-full"></div>
+                            <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center shadow-lg ring-4 ring-gray-600">
+                                <FaLaptopCode className="text-gray-900" />
+                            </div>
+                            <div className="w-24 h-[2px] bg-gradient-to-l from-transparent via-cyan-500 to-cyan-300 rounded-full"></div>
+                        </div>
                     </div>
                     {/* <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>My Skills</h1> */}
                     <div className="grid md:grid-cols-3 grid-cols-2 gap-8">
