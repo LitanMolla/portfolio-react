@@ -1,17 +1,19 @@
-import React from 'react'
+
 import html from '../assets/svg/html.svg'
 import css from '../assets/svg/css.svg'
 import Tailwind from '../assets/svg/tailwindcss.svg'
 import js from '../assets/svg/js.svg'
 import react from '../assets/svg/react.svg'
 import next from '../assets/svg/nextj.svg'
+import reactrouter from '../assets/svg/reactrouter-original.svg'
+import redux from '../assets/svg/redux-original.svg'
 import { FaLaptopCode } from "react-icons/fa";
 
 
 const Skills = () => {
-  return (
-    <>
-        <section className='md:my-20 my-12' id='skills'>
+    return (
+        <>
+            <section className='md:my-20 my-12' id='skills'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h1 className="text-4xl font-bold text-cyan-500 mb-2 relative inline-block">My Skills</h1>
@@ -24,56 +26,64 @@ const Skills = () => {
                         </div>
                     </div>
                     {/* <h1 className='text-4xl font-bold text-cyan-500 text-center mb-12'>My Skills</h1> */}
-                    <div className="grid md:grid-cols-3 grid-cols-2 gap-8">
-                        {/* Skill Item */}
-                        <div className="bg-gray-800/50 p-5 text-center max-w-100 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
-                            <div className="max-w-16 mx-auto">
-                                <img src={html} alt="Html" className='w-full'/>
-                            </div>
-                            <h4 className='text-lg text-gray-100 font-medium mt-3'>HTML</h4>
-                        </div>
-                        {/* Skill Item */}
-                        <div className="bg-gray-800/50 p-5 text-center max-w-100 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
-                            <div className="max-w-16 mx-auto">
-                                <img src={css} alt="Html" className='w-full'/>
-                            </div>
-                            <h4 className='text-lg text-gray-100 font-medium mt-3'>CSS</h4>
-                        </div>
-                        {/* Skill Item */}
-                        <div className="bg-gray-800/50 p-5 text-center max-w-100 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
-                            <div className="max-w-16 mx-auto">
-                                <img src={Tailwind} alt="Html" className='w-full'/>
-                            </div>
-                            <h4 className='text-lg text-gray-100 font-medium mt-3'>Tailwind CSS</h4>
-                        </div>
-                        {/* Skill Item */}
-                        <div className="bg-gray-800/50 p-5 text-center max-w-100 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
-                            <div className="max-w-16 mx-auto">
-                                <img src={js} alt="Html" className='w-full'/>
-                            </div>
-                            <h4 className='text-lg text-gray-100 font-medium mt-3'>Javascript</h4>
-                        </div>
-                        {/* Skill Item */}
-                        <div className="bg-gray-800/50 p-5 text-center max-w-100 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
-                            <div className="max-w-16 mx-auto">
-                                <img src={react} alt="Html" className='w-full'/>
-                            </div>
-                            <h4 className='text-lg text-gray-100 font-medium mt-3'>React</h4>
-                        </div>
-                        {/* Skill Item */}
-                        <div className="bg-gray-800/50 p-5 text-center max-w-100 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
-                            <div className="max-w-16 mx-auto">
-                                <img src={next} alt="Html" className='w-full'/>
-                            </div>
-                            <h4 className='text-lg text-gray-100 font-medium mt-3'>Next.js</h4>
-                        </div>
-                        
+                    <div className="grid md:grid-cols-3 grid-cols-2 gap-8 lg:grid-cols-4">
+                        <SkillItem
+                            logo={html}
+                            title={'HTML'}
+                        />
+
+                        <SkillItem
+                            logo={css}
+                            title={'CSS'}
+                        />
+
+                        <SkillItem
+                            logo={Tailwind}
+                            title={'Tailwind CSS'}
+                        />
+
+                        <SkillItem
+                            logo={js}
+                            title={'Javascript'}
+                        />
+
+                        <SkillItem
+                            logo={react}
+                            title={'React'}
+                        />
+
+                        <SkillItem
+                            logo={reactrouter}
+                            title={'React Router'}
+                        />
+
+                        <SkillItem
+                            logo={redux}
+                            title={'Redux'}
+                        />
+                        <SkillItem
+                            logo={next}
+                            title={'Next Js'}
+                        />
                     </div>
                 </div>
             </section>
             <hr className='border-0 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 h-[2px]' />
-    </>
-  )
+        </>
+    )
 }
 
 export default Skills
+
+const SkillItem = ({ logo, title }) => {
+    return (
+        <>
+            <div className="bg-gray-800/50 p-5 text-center max-w-full rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
+                <div className="max-w-16 mx-auto">
+                    <img src={logo} alt="Html" className='w-full' />
+                </div>
+                <h4 className='text-lg text-gray-100 font-medium mt-3'>{title}</h4>
+            </div>
+        </>
+    )
+}
