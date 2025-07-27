@@ -13,7 +13,7 @@ const Nav = () => {
     }
     return (
         <>
-            <header className='bg-gray-900/90 py-4 shadow shadow-gray-800 fixed top-0 left-0 w-full z-10'>
+            <header className='backdrop-blur-lg py-4 shadow shadow-gray-800 fixed top-0 left-0 w-full z-10'>
                 <nav className='max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8'>
                     <div className='flex justify-between items-center'>
                         <div>
@@ -38,7 +38,7 @@ const Nav = () => {
                     </div>
                     {/* Mobile Menu */}
                     <div
-                        className={`md:hidden fixed top-0 left-0 w-full h-screen bg-gray-900/95 z-30 transform transition-transform duration-500 ease-in-out ${menu ? 'translate-x-0' : '-translate-x-full'
+                        className={`md:hidden fixed top-0 right-0 w-2/3 h-screen bg-gray-900/95 z-30 transform transition-transform duration-500 ease-in-out ${menu ? 'translate-x-0' : 'translate-x-full'
                             }`}
                     >
                         <button

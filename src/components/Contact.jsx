@@ -33,7 +33,7 @@ const Contact = () => {
                                 </div>
                                 <div className="bg-gray-800/50 p-5 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
                                     <p className="text-base font-medium flex items-center gap-2"><FaPhone />Phone</p>
-                                    <Link to={'cell:+8801741232775'}><span className="text-base hover:text-cyan-500 duration-300">+8801741232775</span></Link>
+                                    <Link to={'tel:+8801741232775'}><span className="text-base hover:text-cyan-500 duration-300">+8801741232775</span></Link>
                                 </div>
                                 <div className="bg-gray-800/50 p-5 rounded-md border border-gray-800 duration-300 hover:shadow-custom hover:shadow-gray-800">
                                     <p className="text-base font-medium flex items-center gap-2"><FaWhatsapp />Whatsapp</p>
